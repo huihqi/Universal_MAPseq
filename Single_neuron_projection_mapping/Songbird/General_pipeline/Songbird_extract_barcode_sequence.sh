@@ -1,7 +1,7 @@
 #!/bin/bash
 
 Prefix=Songbird_RA
-for i in {1..60};do
+for i in {1..57};do
 
 	echo $i
 
