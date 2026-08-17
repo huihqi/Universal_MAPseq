@@ -6,7 +6,7 @@ prefix='Parrot_AAC';
 %cd thresholds;
 %bcn=212:229;
 %bcn=1:length(bcn);
-bcn=[1:24];
+bcn=[1:22];
 %filter out SSI with no barcodes
 filesize=[];
 for i=1:length(bcn)
