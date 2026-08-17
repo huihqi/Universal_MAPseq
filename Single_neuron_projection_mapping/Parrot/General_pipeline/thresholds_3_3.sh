@@ -7,7 +7,7 @@ Prefix=Parrot_AAC
 threshold=(0	2	5	2	2	5	20	20	80	80	80	80	3	4	2	3	20	10	20	80	80	20	80	80	20	1)
 
 #do a quick collpase around the UMI tags
-for i in {1..24}; do
+for i in {1..22}; do
     
     j=${threshold[$i]} 
     echo ${j}
