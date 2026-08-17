@@ -1,5 +1,5 @@
 Prefix=Parrot_AAC
-for i in {1..24};do
+for i in {1..22};do
 echo ${i}
 in=${Prefix}_BC${i}_quickout.txt
 grep -v 'GGTTCT[A-Z]\{4\}$' ${in} > ${Prefix}_BC${i}_quickprocessed.txt
