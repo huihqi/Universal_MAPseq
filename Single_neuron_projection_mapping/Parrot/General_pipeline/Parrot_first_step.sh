@@ -1,7 +1,7 @@
 #!/bin/bash
 
 Prefix=Parrot_AAC
-for i in {1..24};do
+for i in {1..22};do
 
 	echo $i
 
