@@ -12,12 +12,12 @@ sourcethresh=75;
 B1=barcodematrix(max(barcodematrix(:,projsite),[],2)>projthresh & max(barcodematrix(:,sourcesite),[],2)>sourcethresh & barcodematrix(:,sourcesite)> max(barcodematrix(:,projsite),[],2),:);
 Bseq1=refbarcodes(max(barcodematrix(:,projsite),[],2)>projthresh & max(barcodematrix(:,sourcesite),[],2)>sourcethresh & barcodematrix(:,sourcesite)> max(barcodematrix(:,projsite),[],2),:);
 
-B2=B1(B1(:,2) ./ B1(:,1)<0.1,:);
-Bseq2=Bseq1(B1(:,2) ./ B1(:,1)<0.1,:);
+B2=B1(B1(:,2) ./ B1(:,1)<0.2,:);
+Bseq2=Bseq1(B1(:,2) ./ B1(:,1)<0.2,:);
 
 projsite1=[3:17];
-B=B2(max(B2(:,projsite1),[],2) ./ B2(:,1) <0.1,:);
-Bseq=Bseq2(max(B2(:,projsite1),[],2) ./ B2(:,1) <0.1,:);
+B=B2(max(B2(:,projsite1),[],2) ./ B2(:,1) <0.2,:);
+Bseq=Bseq2(max(B2(:,projsite1),[],2) ./ B2(:,1) <0.2,:);
 B(B==1)=0;
 B(B==2)=0;
 %normalize barcode matrix
