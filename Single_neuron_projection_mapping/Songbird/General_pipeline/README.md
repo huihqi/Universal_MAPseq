@@ -1,1 +1,1 @@
-
+We used Songbird_extract_barcode_sequence.sh to extract barcode sequence and draw rankplot using Songbird_rankplot.m. We filtered out the barcode sequencing using Songbird_threshold.sh. We sorted barcodes and spike-in RNA using Songbird_barcode.sh and Songbird_spike.sh. The raw matrix was produced by Generate_raw_matrix.m. We generated normalized matrix using Songbird_normalization.m
