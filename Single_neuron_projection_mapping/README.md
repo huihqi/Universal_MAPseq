@@ -1,1 +1,1 @@
-This folder contains the pipeline for producing projection matrix of songbird RA and parrot AAC. The script integration_three_species_M_Z_P.m, sorted_heatmap_three_species_M_Z_P.m and dots_plot_for_three_species.m were used to create figure5.
+This folder contains the pipeline for producing projection matrices of songbird RA and parrot AAC. The scripts integration_three_species_M_Z_P.m, sorted_heatmap_three_species_M_Z_P.m and dots_plot_for_three_species.m were used to create Figure 5.
