@@ -1,4 +1,4 @@
 
 We used BARseq3 pipeline to analyze Forg, Mouse and Songbird virus screening data and BARseq2 pipeline to analyze Marmoset and Macaque virus screening data. The pipeline was included in the folder of each species.
 
-For BARseq3 pipeline, install the environment using environment.yml file. We used cellpose 4 (Pachitariu et al., 2025, bioRxiv) to perform cell segmentation and Batch_process_win.py to get gene expression matrix. For barcode, we only used the pipeline to do round alignment and cell segmentation in barcode module. 
+For BARseq3 pipeline, install the environment using environment.yml file. We used cellpose 4 (Pachitariu et al., 2025, bioRxiv) to perform cell segmentation and Batch_process_win.py to get gene expression matrix. For barcode, we only used the pipeline to do round alignment and cell segmentation in barcode module. We used barcode_last_step.
