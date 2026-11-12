@@ -17,7 +17,7 @@ for i in {1..51}; do
 	awk '$1 < '$j' {print NR}' ../${Prefix}_BC${i}_BU_counts.txt | head -1 >t
 	thresh=$(cat t)
 	echo $thresh
-	head ../${Prefix}_BC${i}_BU_seq.txt -n $thresh | cut -b 1-30 | sort | uniq -c | sort -nr > ${Prefix}_BC${i}_quickout.txt
+	head ../${Prefix}_BC${i}_BU_seq.txt -n $thresh | cut -b 1-28 | sort | uniq -c | sort -nr > ${Prefix}_BC${i}_quickout.txt
    else
 	cut -b 1-30 ../${Prefix}_BC${i}_BU_seq.txt | sort | uniq -c | sort -nr > ${Prefix}_BC${i}_quickout.txt
    fi
