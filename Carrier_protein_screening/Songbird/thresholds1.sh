@@ -1,11 +1,12 @@
 
+
 cd thresholds
 
 Prefix=Bird_CP_Screening
 #Set the first position as 0 and give your thresholds from the second position, for example, 
 #threshold=(0 3 3 3 3 3 3 3 3 3 3 3 0 2 3 3 3 3 3 3 3 3 2 3 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 1 1 3 2 2 3)
 
-threshold=(0 3 3 3 3 3 3 3 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 3 3 3 2 3 3 3 3 3 3 2)
+threshold=(0 10 10 100 50 50 50 5 2 100 100 5 100 100 10 100 100 100 50 100 50 100 100 20 100 100 50 100 100 100 100 100 10 100 50 50 100 8 1 2 2 1 3 3 3 3 3 3 2)
 #do a quick collpase around the UMI tags
 for i in {1..48}; do
     j=${threshold[$i]} 
