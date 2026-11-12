@@ -5,7 +5,7 @@ Prefix=Mouse_CP_Screening
 #Set the first position as 0 and give your thresholds from the second position, for example, 
 #threshold=(0 3 3 3 3 3 3 3 3 3 3 3 0 2 3 3 3 3 3 3 3 3 2 3 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 1 1 3 2 2 3)
 
-threshold=(0	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	3	10	10	1	10	10	10	10	10	10	10	2	3	8	10	10	10	10	10	10	7	10	10	10	7	10	10	10	8	10	10	10	2	2	1	2	2	2	2	2	2	2	2	2	2)
+threshold=(0	50	50	50	50	50	50	50	50	50	50	50	50	50	50	50	50	50	50	50	50	10	10	10	1	10	50	50	50	20	50	50	2	3	8	20	50	10	50	80	80	7	50	10	50	7	50	50	50	8	50	20	50	2	2	2	2	2	2	2	2	2	2	2	2	2)
 #do a quick collpase around the UMI tags
 for i in {1..65}; do
     j=${threshold[$i]} 
