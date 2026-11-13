@@ -18,6 +18,7 @@ Bseq2=Bseq1(B1(:,2) ./ B1(:,1)<0.2,:);
 projsite1=[2:5];
 B=B2(max(B2(:,projsite1),[],2) ./ B2(:,1) <0.2,:);
 Bseq=Bseq2(max(B2(:,projsite1),[],2) ./ B2(:,1) <0.2,:);
+%remove barcode counts less than 2
 B(B==1)=0;
 B(B==2)=0;
 %normalize barcode matrix
@@ -38,7 +39,7 @@ save('filtBCmat_bird_66_R.mat','Bnorm','B_tar','Bseq','Bnorm2_tar','B','-v7.3');
 
 data1=Bnorm2_tar;
 Bnorm_tar1=data1(:,[1:2 4]);
-
+% row normalization
 Bnorm_tar1 = Bnorm_tar1(any(Bnorm_tar1, 2), :);
 %targets=1:4;
 % targets=["RA", "X", "Av", "CB"];
@@ -46,7 +47,7 @@ targets=["RA", "X", "CB"];
 data_tar=Bnorm_tar1(:,1:3);
 row_sums = sum(data_tar, 2);                     % Sum each row (along columns)
 data = data_tar ./ row_sums;        % Element-wise division
-
+% Draw heatmap
 clustergram(data,'ColumnLabels',targets,'Cluster','column','Symmetric','false',...
     'Colormap','parula')
 
