@@ -44,6 +44,10 @@ cd BARseq3_pipeline/gene_barcode_raw_image_pipeline
 
   -  `output (Excel file with genes and barcodes information)`
 
+## Cell type
+
+-After getting gene expression and barcode matrix using Virus_and_cell_type.ipynb script to get cell type information
+
 
 ## Input Data structure
 
