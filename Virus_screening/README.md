@@ -29,14 +29,14 @@ cd BARseq3_pipeline/gene_barcode_raw_image_pipeline
 ## Run pipeline locally 
 
 - navigate to the "analysis_pipeline" folder
-- modify configurations in the starmap_pipeline.py file and save
+- modify configurations in the Batch_process_**.py file and save
 - open pipeline(BARseq2/3_non_barcode_gene_only.py/BARseq2/3_barcode_gene.py) in VS Code and run
  
 ## For barcode analysis
 
   - `using gene pipeline to get aligned.hdf5 file`
 
-  - `open Analysis_pipeline_for_barcodes.ipynb(General pipeline) or BARseq2/3_Barcode.ipynb (For Fig. 2E)`
+  - `open Last_step_**.ipynb(General pipeline)`
     
   - `modify file path and name`
     
