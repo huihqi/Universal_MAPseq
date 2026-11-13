@@ -1,5 +1,6 @@
 #!/bin/bash
-
+# load fastq file
+# after this step, you will get barcodes and UMI sequence
 Prefix=Caleb_Bird
 for i in {33..40};do
         j=$[$i-32]
