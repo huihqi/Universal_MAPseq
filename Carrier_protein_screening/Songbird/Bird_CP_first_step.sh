@@ -1,5 +1,6 @@
 #!/bin/bash
-
+# Load Zebra finch carrier protein screening fastq files
+# After this step, you will get barcodes and UMI sequence file
 Prefix=Bird_CP_Screening
 for i in {1..48};do
 
