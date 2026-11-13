@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Load Fastq files
 Prefix=Mouse_CP_Screening
 for i in {1..65};do
 
