@@ -2,8 +2,8 @@ function rankplot(bcn,prefix,donotplot)
 %plot rank plot of counts
 %% read in sequences and counts of data split into the different libraries
 
-bcn=1:22;
-prefix='Parrot_AACd';
+bcn=1:24;
+prefix='Caleb_Bird';
 for i=1:length(bcn)
 data(i).rawcounts=dlmread([prefix,'_BC',int2str(bcn(i)),'_BU_counts.txt']);
 end
