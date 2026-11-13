@@ -1,3 +1,4 @@
+# filter sequence by carrier protein
 Prefix=Mouse_CP_Screening
 brain=sample9
 for i in 33 34 35 36 61;do
