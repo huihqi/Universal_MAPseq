@@ -1,5 +1,5 @@
 #!/bin/bash
-# Load Fastq files and combine two batches of sequencing files
+# Load Mouse Carrier protein screening Fastq files and combine two batches of sequencing files
 Prefix=Mouse_CP_Screening
 for i in {1..65};do
 
