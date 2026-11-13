@@ -1,4 +1,6 @@
 We included scripts and pipelines for single-neuron projection mapping, carrier protein screening and viral screening. Specific procedures were describled in README.md file in each folder. All raw sequencing datasets are available in the NCBI Sequence Read Archive (SRA) under accession number PRJNA1513960. Processed data can be found in Zenodo (DOI:10.5281/zenodo.21997210). 
 
-# MAPseq analysis
+## MAPseq analysis
+### System requirements
+#### Ubuntu 22.04 and MATLAB (MathWorks, version R2022a) 
 
