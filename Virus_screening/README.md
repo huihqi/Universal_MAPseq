@@ -1,6 +1,6 @@
 # Get Started - Running Pipeline on Local Computer
 
-## Installation for BARseq3 environment
+### Installation for BARseq3 environment
 
 
 
