@@ -1,4 +1,4 @@
 
 ## Songbird carrier protein process
 
-Starting from Fastq file (SUB14895115). We extracted barcodes UMI and sequence using Bird_CP_first_step.sh. We draw rank plot and set thresholds using rankplot.m and thresholds1.sh, respectively. We filtered out the barcodes using barcode.sh. We used producedBCmat2.m to generate the maxrix and find_barcode_num_of_protein2.m to assign barcodes to each carrier protein. 
+Starting from Fastq file (SUB16415133). We extracted barcodes UMI and sequence using Bird_CP_first_step.sh. We draw rank plot and set thresholds using rankplot.m and thresholds1.sh, respectively. We filtered out the barcodes using barcode.sh. We used producedBCmat2.m to generate the maxrix and find_barcode_num_of_protein2.m to assign barcodes to each carrier protein. 
