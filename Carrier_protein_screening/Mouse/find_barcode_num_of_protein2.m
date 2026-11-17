@@ -1,3 +1,5 @@
+% Don't need to change parameter, the script can process 13 samples in a single run.
+% if the sample order changed please also change, the order number in each brain region sunch as Medulla_ori = [1,5,9,13,17,23,27,31,35,39,43,47,51];
 Final_Matrix=[];
 sample_info=[];
 for sample=1:13
