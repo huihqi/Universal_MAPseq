@@ -1,3 +1,4 @@
+% This script is used to find threshold for threshold.sh script
 function rankplot(bcn,prefix,donotplot)
 %plot rank plot of counts
 %% read in sequences and counts of data split into the different libraries
