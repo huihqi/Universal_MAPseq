@@ -1,3 +1,6 @@
+% We use this script to generate projection matrix
+% To run each sample, please change sample name brain='67L'; and corresponding file name bcn=[7,33,34,35,36];
+
 function produceBCmat(bcn,prefix,brain)
 %process MAPseq data to produce barcode matrix
 prefix='Caleb_Bird';
