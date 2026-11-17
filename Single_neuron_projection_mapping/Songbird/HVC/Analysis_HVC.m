@@ -1,3 +1,4 @@
+% This scripts is used to generate normalized projection matrix and heatmap
 %filter barcodes by thresholds
 x=zeros(1,length(spikes));
 for i=1:length(spikes)
