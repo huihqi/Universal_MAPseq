@@ -1,4 +1,5 @@
 # Filter each carrier protein barcodes based on identifier sequence
+# Modify 'brain=sample1' and corresponding sample file ( 1 2 3 37) when run each sample
 Prefix=Bird_CP_Screening
 brain=sample1
 for i in 1 2 3 37;do
