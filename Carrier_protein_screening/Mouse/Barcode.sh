@@ -1,4 +1,5 @@
 # filter sequence by carrier protein
+# run each sample using the corresponding 'brain=sample9' and  files name for injection site and target sites such as 61 is the injection site in that sample
 Prefix=Mouse_CP_Screening
 brain=sample9
 for i in 33 34 35 36 61;do
