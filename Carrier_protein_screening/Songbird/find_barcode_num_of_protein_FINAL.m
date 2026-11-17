@@ -1,3 +1,5 @@
+% For these script, you don't need to change parameter, if the file name is correct, you only need a single run for all samples
+% if you change the sample or brain region order, please also modify  region order for each sample such as RA_ori = [1,4,7,10,13,16,19,22,25,28,31,34];
 Final_Matrix=[];
 sample_info=[];
 for sample=1:12
