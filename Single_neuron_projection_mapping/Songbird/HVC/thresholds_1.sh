@@ -1,3 +1,4 @@
+% Modify threshold parameter for each sample and sample number in for loop
 Prefix='Caleb_Bird'
 #Set the first position as 0 and give your thresholds from the second position, for example, 
 threshold=(0 2 3 5 3 5 5 4 0 10 6 20 20 20 10 20 20 10 10 10 10 9 10 10 10 9 9 5 5 4 4 4 4 10 10 10 6 1 0 0 0)
