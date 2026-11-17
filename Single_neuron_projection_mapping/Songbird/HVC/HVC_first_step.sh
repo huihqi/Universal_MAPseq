@@ -1,5 +1,5 @@
 #!/bin/bash
-# load fastq file
+# load fastq file and use the HVC_CSI in the excel for the specific brain area sequencing data
 # after this step, you will get barcodes and UMI sequence
 Prefix=Caleb_Bird
 for i in {33..40};do
