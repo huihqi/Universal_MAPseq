@@ -1,3 +1,4 @@
+% Modify brain='sample1_' and bcn=[1,2,3,4,53]; to get matrix for each samples
 
 load ../rawdata
 prefix='Mouse_CP_Screening'
