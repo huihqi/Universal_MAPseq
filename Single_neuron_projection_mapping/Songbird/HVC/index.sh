@@ -1,4 +1,4 @@
-# filter barcodes sequence
+# filter MAPseq barcodes sequence
 Prefix=Caleb_Bird
 for i in {1..40};do
 echo ${i}
