@@ -1,4 +1,4 @@
-
+# Modify brain='sample12_' and corresponding sample name bcn=[34,35,36,48]; for each sample
 load ../rawdata
 prefix='Bird_CP_Screening'
 brain='sample12_'
